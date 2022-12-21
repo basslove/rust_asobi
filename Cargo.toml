@@ -1,0 +1,127 @@
+[package]
+name = "rust_practice"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.4"
+actix-web = "4"
+serde = "1.0"
+
+[[bin]]
+name = "web"
+path = "src/api/main.rs"
+
+[[bin]]
+name = "basic"
+path = "src/algo/basic/main.rs"
+
+[[bin]]
+name = "sorts_bubble"
+path = "src/algo/sorts/bubble/main.rs"
+
+[[bin]]
+name = "sorts_quick"
+path = "src/algo/sorts/quick/main.rs"
+
+[[bin]]
+name = "sorts_merge"
+path = "src/algo/sorts/merge/main.rs"
+
+[[bin]]
+name = "sorts_heap"
+path = "src/algo/sorts/heap/main.rs"
+
+[[bin]]
+name = "search"
+path = "src/algo/search/main.rs"
+
+[[bin]]
+name = "adapter"
+path = "src/structures/adapter/main.rs"
+
+[[bin]]
+name = "bridge"
+path = "src/structures/bridge/main.rs"
+
+[[bin]]
+name = "builder"
+path = "src/creations/builder/main.rs"
+
+[[bin]]
+name = "chain_of_responsibility"
+path = "src/behaviors/chain_of_responsibility/main.rs"
+
+[[bin]]
+name = "command"
+path = "src/behaviors/command/main.rs"
+
+[[bin]]
+name = "composite"
+path = "src/structures/composite/main.rs"
+
+[[bin]]
+name = "decorator"
+path = "src/structures/decorator/main.rs"
+
+[[bin]]
+name = "facade"
+path = "src/structures/facade/main.rs"
+
+[[bin]]
+name = "factory"
+path = "src/creations/factory/main.rs"
+
+[[bin]]
+name = "flyweight"
+path = "src/structures/flyweight/main.rs"
+
+[[bin]]
+name = "interpreter"
+path = "src/behaviors/interpreter/main.rs"
+
+[[bin]]
+name = "iterator"
+path = "src/behaviors/iterator/main.rs"
+
+[[bin]]
+name = "meditator"
+path = "src/behaviors/meditator/main.rs"
+
+[[bin]]
+name = "moment"
+path = "src/behaviors/moment/main.rs"
+
+[[bin]]
+name = "observer"
+path = "src/behaviors/observer/main.rs"
+
+[[bin]]
+name = "prototype"
+path = "src/creations/prototype/main.rs"
+
+[[bin]]
+name = "proxy"
+path = "src/structures/proxy/main.rs"
+
+[[bin]]
+name = "singleton"
+path = "src/creations/singleton/main.rs"
+
+[[bin]]
+name = "state"
+path = "src/behaviors/state/main.rs"
+
+[[bin]]
+name = "strategy"
+path = "src/behaviors/strategy/main.rs"
+
+[[bin]]
+name = "template"
+path = "src/behaviors/template/main.rs"
+
+[[bin]]
+name = "visitor"
+path = "src/behaviors/visitor/main.rs"
