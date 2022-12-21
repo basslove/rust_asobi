@@ -1,0 +1,45 @@
+pub mod abstract_factory;
+pub mod adapter;
+pub mod bridge;
+pub mod builder;
+pub mod chain_of_responsibility;
+pub mod command;
+pub mod composite;
+pub mod decorator;
+pub mod factory;
+pub mod flyweight;
+pub mod interpreter;
+pub mod iterator;
+pub mod memento;
+pub mod observer;
+pub mod prototype;
+pub mod proxy;
+pub mod singleton;
+pub mod state;
+pub mod strategy;
+pub mod template_method;
+pub mod visitor;
+
+pub fn summay() {
+    iterator::execute();
+    adapter::execute();
+    template_method::execute();
+    factory::execute();
+    singleton::execute();
+    prototype::execute();
+    builder::execute();
+    bridge::execute();
+    abstract_factory::execute();
+    strategy::execute();
+    composite::execute();
+    decorator::execute();
+    visitor::execute();
+    chain_of_responsibility::execute();
+    observer::execute();
+    memento::execute();
+    state::execute();
+    flyweight::execute();
+    proxy::execute();
+    command::execute();
+    interpreter::execute();
+}
